@@ -108,6 +108,8 @@ if (isset($_GET['debug']))
 			header('Location: blindsqli.php?user='.$_SESSION["username"]);
 			}elseif ($_SESSION['next']=="os_sqli.php"){
 				header('Location: os_sqli.php?user='.$_SESSION["username"]);
+				}else {
+				header('Location: index.php');
 				}
 		}
 	else{

@@ -72,7 +72,17 @@ ini_set('display_errors', 1);
       </div>
 
 </div>
-      <div class="footer">
+
+<?php
+if ($_SESSION["username"]){
+
+	$msg = "<div class=\"footer\"><p><h4><a href=\"blindsqli.php?user=" . $_SESSION['username'] . "\">Profile</a> | <a href=\"logout.php\">Logout</a><h4></p></div>";
+	echo $msg;
+
+}
+?>
+	  
+	  <div class="footer">
 		<p><a href="https://appsecco.com">Appsecco</a> | Riyaz Walikar | <a href="https://twitter.com/riyazwalikar">@riyazwalikar</a></p>
       </div>
 
