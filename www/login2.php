@@ -31,7 +31,7 @@ ini_set('display_errors', 1);
 								$_SESSION['next']='os_sqli.php';
 								echo "<br />Please login to continue to OS Command Injection Page";
 								}else{
-									$_SESSION['next']='searchproducts.php';
+									$_SESSION['next']='index.php';
 								}
 					} 
 				?>

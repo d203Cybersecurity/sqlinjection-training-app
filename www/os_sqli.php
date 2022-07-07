@@ -19,6 +19,11 @@ ini_set('display_errors', 1);
   <body>
   <div class="container-narrow">
 		
+	  <div class="footer">
+	  <p><h4><a href="blindsqli.php?user=<?php echo $_SESSION['username'];?>">Profile</a> | <a href="logout.php">Logout</a> | <a href="index.php">Home</a><h4></p>
+      </div>
+	  
+	  
 		<div class="jumbotron">
 			<p class="lead" style="color:white">
 				OS interaction using SQL Injection - Let's drop a shell!</a>
@@ -104,13 +109,6 @@ if (isset($_GET["user"])){
 
 ?>
 
-	  
-	  
-	  <div class="footer">
-	  <p><h4><a href="blindsqli.php?user=<?php echo $_SESSION['username'];?>">Profile</a> | <a href="logout.php">Logout</a> | <a href="index.php">Home</a><h4></p>
-      </div>
-	  
-	  
 	  <div class="footer">
 	  <p><a href="https://appsecco.com">Appsecco</a> | Riyaz Walikar | <a href="https://twitter.com/riyazwalikar">@riyazwalikar</a></p>
       </div>
