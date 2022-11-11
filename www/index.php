@@ -47,16 +47,16 @@ if ($_SESSION["username"]){
         <div class="col-lg-6">
 
     <div style="border:1px solid #000000; padding: 10px">
-		  <h4><a href="http://localhost:8000/login1.php?debug=true" style="color:#B31D14">Exercise 1 -- Login Bypass #1</a></h4>
+		  <h4><a href="/login1.php?debug=true" style="color:#B31D14">Exercise 1 -- Login Bypass #1</a></h4>
           <p>Enter a random username and password combination that will not be in the database and observe the output. Now use your SQL injection techniques to bypass the user authentication. When you are successful, you will be redirected to the home page and there will now be an option to logout at the top of the page. Complete the corresponding portion of the document.</p>
           
-		<h4><a href="http://localhost:8000/login2.php?debug=true" style="color:#B31D14">Exercise 2 -- Login Bypass #2</a></h4>
+		<h4><a href="/login2.php?debug=true" style="color:#B31D14">Exercise 2 -- Login Bypass #2</a></h4>
           <p>Be sure to logout. Enter a random username and password combination that will not be in the database and observe the output. Now use your SQL injection techniques to bypass the user authentication. When you are successful, you will be redirected to the home page and there will now be an option to logout at the top of the page. Complete the corresponding portion of the document.</p>
           
-		<h4><a href="http://localhost:8000/searchproducts.php?debug=true" style="color:#B31D14">Exercise 3 -- Return SQL database information -- Products Catalog</a></h4>
+		<h4><a href="/searchproducts.php?debug=true" style="color:#B31D14">Exercise 3 -- Return SQL database information -- Products Catalog</a></h4>
           <p>Enter a SQLi that will list all of the tables and their columns in the database. Note that you need to list all of the tables and all of their columns in the database. Not just the columns for the products table. There are other tables in the database. Complete the corresponding portion of the document.</p>
 
-		<h4><a href="http://localhost:8000/searchproducts.php?debug=true" style="color:#B31D14">Exercise 4 -- Return SQL database information -- User Database</a></h4>
+		<h4><a href="/searchproducts.php?debug=true" style="color:#B31D14">Exercise 4 -- Return SQL database information -- User Database</a></h4>
           <p>Enter a SQLi that will return all of the users in the database and their hashed passwords associated with each user account. Complete the corresponding portion of the document.</p>
           
         </div>
